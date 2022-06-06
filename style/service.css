@@ -1,0 +1,185 @@
+
+.page{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.service__title{
+	padding-top: 50px;
+	font-size: 40px;
+	line-height: 33px;
+	font-weight: 400;
+}
+.delivery{
+	padding-top: 37px;
+	margin-bottom: 0;
+}
+.delivery__content{
+	padding-top: 14px;
+}
+
+.grey{
+	background: #F2F2F2;
+}
+
+
+
+
+table {
+}
+
+tr{
+	height: 40px;
+}
+
+table tr td{
+	width: 300px;
+}
+
+.table__content {
+	width: 100%:;
+    max-width: 1144px;
+  /*  overflow: scroll;*/
+
+    font-size: 15px;
+    line-height: 41px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.first{
+	padding-left: 20px;
+}
+.service__line{
+	height: 1px;
+	width: 100%;
+	background:#E0E0E0;
+
+	position: absolute;
+    top: 40px;
+}
+
+/*
+.column__table{
+	padding: 0;
+	transform: translateX(10px);
+	padding-top: 36px;
+}
+.column__table p{
+	padding-left: 20px;
+}
+.column__table .table__title{
+	padding-left: 20px !important;
+	margin-bottom: 10px;
+}
+
+.table__title{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+/*.service__line{
+	height: 1px;
+	width: 100%;
+	background:#E0E0E0;
+}
+
+.table__title,
+.table__row{
+	padding: 0 !important;
+}
+.table__row p{
+	height: 40px;
+	margin-bottom: 0;
+
+	font-size: 15px;
+	line-height: 41px;
+	font-weight: 500;
+}
+
+.table_row_title{
+	font-size: 15px;
+	line-height: 41px;
+	font-weight: 400;
+}*/
+
+
+.last{
+	margin-bottom: 100px;
+}
+
+.footer{
+	margin-top: auto;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+	/*.column__table{
+		width: 25%;
+	}*/
+	.delivery-second{
+		margin-bottom: 0;
+	}
+
+
+	table {
+    	width: 1200px;
+	}
+
+	table tr td{
+		width: 250px;
+	}
+
+	.table__content {
+		width: 100%;
+	    max-width: 768px;
+	    overflow: scroll;
+	}
+
+
+}
+
+@media (max-width: 450px){
+	table {
+    	width: 700px;
+	}
+	.table__content {
+		width: 100%;
+	    max-width: 768px;
+	}
+}
+
+@media (max-width: 450px){
+	/*.service__title{
+		padding-top: 30px;
+	}*/
+	.delivery{
+		padding-top: 20px;
+	}
+	.column__table{
+		padding-top: 25px;
+	}
+	.tab{
+		margin-bottom: 30px;
+	}
+	.last{
+		margin-bottom: 40px;
+	}
+
+}
+
+
+
+
+
+
